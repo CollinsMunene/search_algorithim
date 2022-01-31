@@ -16,7 +16,7 @@ app = FastAPI(
 @app.get("/item/{item}",tags=["Get Index of Item API"])
 def SearchIndex(item: int):
     # Defined array
-    fixed_arr = [2, 3, 4, 10, 40]
+    fixed_arr = [6, 8, 4, 90, 100, 28, 12, 56, 12, 112]
 
     try:
         # Using the Index inbuilt function, I search for the item received in the defined array.

@@ -7,7 +7,7 @@ Search Algorithm is a simple Python-based algorithm developed using Fast-Api wit
 The algorithm contains a single API that receives an Integer Item from the user and the algorithm then searches the defined array for the index position of the item passed.
 
 Defined variables:-
-   The Array -> [ ];
+   The Array -> [6, 8, 4, 90, 100, 28, 12, 56, 12, 112];
 
 Inbuilt Function used:- Index
 
@@ -23,7 +23,7 @@ http://127.0.0.1:8000/item/4
 
 
 #Using the defined array below
-    fixed_arr = [2, 3, 4, 10, 40]
+    fixed_arr = [6, 8, 4, 90, 100, 28, 12, 56, 12, 112]
 
     try:
         # Using the Index inbuilt function, I search for the item received in the defined array.
