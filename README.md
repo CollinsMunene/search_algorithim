@@ -18,7 +18,7 @@ Example:
 
 #I as the user would like to get the index position of item 4
 #So my API would look something like below
-http://127.0.0.1:8000/items/{pass in any item}
+http://127.0.0.1:8000/item/4
 
 
 
@@ -27,7 +27,7 @@ http://127.0.0.1:8000/items/{pass in any item}
 
     try:
         # Using the Index inbuilt function, I search for the item received in the defined array.
-        result = fixed_arr.index(item)
+        result = fixed_arr.index(4)
     except:
         # Handling exception if the item received is not in the defined array.
         result = "Item not in array"
@@ -63,7 +63,7 @@ uvicorn main:app --reload
 
 Once the application is running, the available api is 
 ```sh
-http://127.0.0.1:8000/items/{pass in any item}
+http://127.0.0.1:8000/item/{pass in any item}
 ```
 
 ## Author
