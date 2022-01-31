@@ -1,6 +1,6 @@
 # Search Algorithm
 
-Search Algorithm is a simple Python-based algorithm developed with the aim of returning the index of an item in an array.
+Search Algorithm is a simple Python-based algorithm developed using Fast-Api with the aim of returning the index of an item in an array in a simple manner.
 
 ## How it works ...
 
@@ -39,6 +39,7 @@ http://127.0.0.1:8000/item/4
 #The algorithm will return the result as the Index position 2
 
 ```
+
 ## Firing it up ...
 
 To fire up the algorithm, follow the following steps.
