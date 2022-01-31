@@ -49,6 +49,8 @@ You will need to create a virtual environment using the virtualenv library as be
 ```sh
 git clone https://github.com/CollinsMunene/search_algorithim.git
 
+cd search_algorithim 
+
 virtualenv venv
 
 source venv/bin/activate
